@@ -1,6 +1,6 @@
  const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = ("$")
+const prefix = (".")
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -33,7 +33,7 @@ client.on('ready', () => {
   client.on('message', message => {
   var args = message.content.toLowerCase().split(' ');
     var command = args[0];
-    var prefix = '$';
+    var prefix = '.';
     var wordsSay = message.content.split(' ').slice(1).join(' ');
     
     if(command == prefix + 'say') {
