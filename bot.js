@@ -243,60 +243,60 @@ if (!profile[getvalueof.id]) profile[getvalueof.id] = {points: 0,reps: "NOT YET"
                         if (err) return console.log(err);
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; // عرض الخط
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; // عرض الخط
                         ctx.fillStyle = "#000000"; // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${getvalueof.username}`, 153, 173) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 153, 200) // احداثيات اسمك
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; 
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; 
                         ctx.fillStyle = "#f1f1f1"; 
                         ctx.textAlign = "center"; 
-                        ctx.fillText(`${getvalueof.username}`, 151, 171) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 151, 201) // احداثيات اسمك
 
                         //credit
                         ctx.font = "bold 12px Arial" // نوع الخط وحجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 70, 175) // احداثيات المصاري
 
                         //poits
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '10px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].points}`, 223, 159) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].points}`, 236, 175) // احداثيات النقاط
 
                         //Level
                         ctx.font = "bold 20px Arial" // نوع الخط و حجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].level}`, 223, 115) // احداثيات اللفل
+                        ctx.fillText(`${profile[getvalueof.id].level}`, 236, 115) // احداثيات اللفل
 
                          //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#000000" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 199) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 235) // احداثيات النقاط
 
                         //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 197) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 232) // احداثيات النقاط
 
                         // REP
                         ctx.font = "bold 20px  Arial";
                         ctx.fontSize = "40px";
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 80,115)
+                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 62,115)
 
                         let Avatar = Canvas.Image;
                         let ava = new Avatar;
@@ -535,61 +535,60 @@ if (!profile[getvalueof.id]) profile[getvalueof.id] = {points: 0,reps: "NOT YET"
                         if (err) return console.log(err);
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; // عرض الخط
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; // عرض الخط
                         ctx.fillStyle = "#000000"; // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${getvalueof.username}`, 153, 173) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 153, 200) // احداثيات اسمك
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; 
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; 
                         ctx.fillStyle = "#f1f1f1"; 
                         ctx.textAlign = "center"; 
-                        ctx.fillText(`${getvalueof.username}`, 151, 171) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 151, 201) // احداثيات اسمك
 
                         //credit
                         ctx.font = "bold 12px Arial" // نوع الخط وحجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 70, 175) // احداثيات المصاري
 
                         //poits
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '10px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].points}`, 223, 159) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].points}`, 236, 175) // احداثيات النقاط
 
                         //Level
                         ctx.font = "bold 20px Arial" // نوع الخط و حجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].level}`, 223, 115) // احداثيات اللفل
+                        ctx.fillText(`${profile[getvalueof.id].level}`, 236, 115) // احداثيات اللفل
 
                          //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#000000" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 199) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 235) // احداثيات النقاط
 
                         //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 197) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 232) // احداثيات النقاط
 
                         // REP
                         ctx.font = "bold 20px  Arial";
                         ctx.fontSize = "40px";
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 80,115)
-
+                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 62,115)
                         let Avatar = Canvas.Image;
                         let ava = new Avatar;
 
@@ -827,61 +826,60 @@ if (!profile[getvalueof.id]) profile[getvalueof.id] = {points: 0,reps: "NOT YET"
                         if (err) return console.log(err);
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; // عرض الخط
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; // عرض الخط
                         ctx.fillStyle = "#000000"; // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${getvalueof.username}`, 153, 173) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 153, 200) // احداثيات اسمك
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; 
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; 
                         ctx.fillStyle = "#f1f1f1"; 
                         ctx.textAlign = "center"; 
-                        ctx.fillText(`${getvalueof.username}`, 151, 171) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 151, 201) // احداثيات اسمك
 
                         //credit
                         ctx.font = "bold 12px Arial" // نوع الخط وحجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 70, 175) // احداثيات المصاري
 
                         //poits
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '10px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].points}`, 223, 159) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].points}`, 236, 175) // احداثيات النقاط
 
                         //Level
                         ctx.font = "bold 20px Arial" // نوع الخط و حجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].level}`, 223, 115) // احداثيات اللفل
+                        ctx.fillText(`${profile[getvalueof.id].level}`, 236, 115) // احداثيات اللفل
 
                          //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#000000" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 199) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 235) // احداثيات النقاط
 
                         //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 197) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 232) // احداثيات النقاط
 
                         // REP
                         ctx.font = "bold 20px  Arial";
                         ctx.fontSize = "40px";
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 80,115)
-
+                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 62,115)
                         let Avatar = Canvas.Image;
                         let ava = new Avatar;
 
@@ -1117,63 +1115,61 @@ if (!profile[getvalueof.id]) profile[getvalueof.id] = {points: 0,reps: "NOT YET"
                     if (err) return console.log(err);
                     ava.getBuffer(jimp.MIME_PNG, (err, buf) => {
                         if (err) return console.log(err);
-
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; // عرض الخط
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; // عرض الخط
                         ctx.fillStyle = "#000000"; // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${getvalueof.username}`, 153, 173) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 153, 200) // احداثيات اسمك
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; 
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; 
                         ctx.fillStyle = "#f1f1f1"; 
                         ctx.textAlign = "center"; 
-                        ctx.fillText(`${getvalueof.username}`, 151, 171) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 151, 201) // احداثيات اسمك
 
                         //credit
                         ctx.font = "bold 12px Arial" // نوع الخط وحجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 70, 175) // احداثيات المصاري
 
                         //poits
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '10px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].points}`, 223, 159) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].points}`, 236, 175) // احداثيات النقاط
 
                         //Level
                         ctx.font = "bold 20px Arial" // نوع الخط و حجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].level}`, 223, 115) // احداثيات اللفل
+                        ctx.fillText(`${profile[getvalueof.id].level}`, 236, 115) // احداثيات اللفل
 
                          //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#000000" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 199) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 235) // احداثيات النقاط
 
                         //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 197) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 232) // احداثيات النقاط
 
                         // REP
                         ctx.font = "bold 20px  Arial";
                         ctx.fontSize = "40px";
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 80,115)
-
+                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 62,115)
                         let Avatar = Canvas.Image;
                         let ava = new Avatar;
 
@@ -1409,63 +1405,61 @@ if (!profile[getvalueof.id]) profile[getvalueof.id] = {points: 0,reps: "NOT YET"
                     if (err) return console.log(err);
                     ava.getBuffer(jimp.MIME_PNG, (err, buf) => {
                         if (err) return console.log(err);
-
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; // عرض الخط
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; // عرض الخط
                         ctx.fillStyle = "#000000"; // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${getvalueof.username}`, 153, 173) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 153, 200) // احداثيات اسمك
 
                         //ur name
-                    ctx.font = 'bold 13px Comic Sans MS'; // حجم الخط و نوعه
-                        ctx.fontSize = '30px'; 
+                    ctx.font = 'bold 15px Comic Sans MS'; // حجم الخط و نوعه
+                        ctx.fontSize = '50px'; 
                         ctx.fillStyle = "#f1f1f1"; 
                         ctx.textAlign = "center"; 
-                        ctx.fillText(`${getvalueof.username}`, 151, 171) // احداثيات اسمك
+                        ctx.fillText(`${getvalueof.username}`, 151, 201) // احداثيات اسمك
 
                         //credit
                         ctx.font = "bold 12px Arial" // نوع الخط وحجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 70, 175) // احداثيات المصاري
 
                         //poits
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '10px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].points}`, 223, 159) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].points}`, 236, 175) // احداثيات النقاط
 
                         //Level
                         ctx.font = "bold 20px Arial" // نوع الخط و حجمه
                         ctx.fontSize = '10px'; // عرض الخط
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].level}`, 223, 115) // احداثيات اللفل
+                        ctx.fillText(`${profile[getvalueof.id].level}`, 236, 115) // احداثيات اللفل
 
                          //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#000000" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 199) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 235) // احداثيات النقاط
 
                         //info
                         ctx.font = "bold 12px Arial" // ن
                         ctx.fontSize = '15px'; // عرض الخطوع الخط وحجمه
                         ctx.fillStyle = "#f1f1f1" // لون الخط
                         ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 197) // احداثيات النقاط
+                        ctx.fillText(`${profile[getvalueof.id].tite}`, 150, 232) // احداثيات النقاط
 
                         // REP
                         ctx.font = "bold 20px  Arial";
                         ctx.fontSize = "40px";
                         ctx.fillStyle = "#f1f1f1";
                         ctx.textAlign = "center";
-                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 80,115)
-
+                        ctx.fillText(`+${profile[getvalueof.id].rep}`, 62,115)
                         let Avatar = Canvas.Image;
                         let ava = new Avatar;
 
